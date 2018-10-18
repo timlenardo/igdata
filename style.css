@@ -1,0 +1,130 @@
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-light-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+		font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		text-align: left;
+    color:#FFFFFF;
+}
+
+h1 {
+  font-weight: 700;
+  font-size:45px;
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: #31343D;
+}
+
+input {
+    width:375px;
+    height:45px;
+    margin-bottom: 10px;
+    font-size:16px;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left:20px;
+}
+
+#submit {
+  color: white;
+  background-color: #0094EA;
+  padding-left:0px;
+  font-weight: 700;
+}
+
+#container {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#chart {
+  width:375px;
+  height:375px;
+  background: white;
+  border-radius: 8px;
+  /* padding:20px;
+  padding-right:40px; */
+}
+
+#logout {
+  margin-top:60px;
+  background-color: #363943;
+  color:white;
+}
+
+.increased {
+  color:#00FF6F;
+}
+
+.decreased {
+  color:#EC2828;
+}
+
+.button {
+
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    max-width: 82vw;
+  }
+
+  h1 {
+    font-size: 9vw;
+    padding-top:5vw;
+    padding-bottom:5vw;
+  }
+
+  h2 {
+    font-size: 5.5vw;
+    padding-top:0vh;
+    padding-bottom:3vh;
+  }
+
+  input {
+      width:82vw;
+      height:12vw;
+      font-size:4.5vw;
+      margin-bottom: 10px;
+
+      border-radius: 8px;
+      border-width: 0px;
+      padding-left:20px;
+  }
+
+  #submit {
+    color: white;
+    background-color: #0094EA;
+    padding-left:0px;
+    font-weight: 700;
+  }
+}
